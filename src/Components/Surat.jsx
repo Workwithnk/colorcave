@@ -20,7 +20,7 @@ function Surat() {
     if (navigator.clipboard) {
       navigator.clipboard.writeText(color);
       navigator.clipboard.readText();
-      toast.success(`Copied color ${color}`, {
+      toast.success(`${color} Copied`, {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
     }

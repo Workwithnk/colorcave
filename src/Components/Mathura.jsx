@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-
 import { NavLink } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { KolkataData } from "../ColorsArray/KolkataData";
+import { MathuraData } from "../ColorsArray/MathuraData";
 import "../CSS/Mumbai.css";
 
 toast.configure();
 
-function Kolkata() {
+function Mathura() {
   const [colorVal, setcolorVal] = useState("rgb");
 
   const selectHandler = (e) => {
@@ -35,7 +34,7 @@ function Kolkata() {
         </select>
       </div>
       <div className="Mumbai_Page_All_Data">
-        {KolkataData.map((data) => {
+        {MathuraData.map((data) => {
           return (
             <div
               className="Mumbai_Page_data"
@@ -52,4 +51,4 @@ function Kolkata() {
   );
 }
 
-export default Kolkata;
+export default Mathura;

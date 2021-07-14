@@ -36,7 +36,7 @@ export const KolkataData = [
   },
   {
     id: "k8",
-    hex: "#F2DBB5",
-    rgb: "rgb(219, 176, 163)",
+    hex: "#ff9f1a",
+    rgb: "rgb(255, 159, 26)",
   },
 ];

@@ -24,6 +24,38 @@
   font-size: 2vw;
   padding: 0px 5px;
 }
+
+.PatternsData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AllPatterns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ColorsTitle {
+  font-size: 30px;
+  font-family: system-ui;
+  border-bottom: 1px solid gray;
+  width: 90%;
+}
+.flateColors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AllFalteColors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 @media only screen and (max-width: 550px) {
   .Mumbai_App_Section {
     width: 90vw;
@@ -43,5 +75,8 @@
   }
   .NavBar_Title {
     font-size: 23px;
+  }
+  .ColorsTitle {
+    font-size: 22px;
   }
 }
